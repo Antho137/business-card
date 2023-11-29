@@ -1,0 +1,114 @@
+body {
+  font-family: sans-serif;
+}
+
+.App {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 5px 0;
+  background: rgb(62, 64, 75);
+}
+
+.container {
+  color: #fff;
+  max-width: 220px;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 10px auto;
+  padding: 20px auto;
+  border-radius: 0 0 10px 10px;
+  background: rgb(25,25,42);
+}
+
+.info img {
+  width: 100%;
+  height: auto;
+  border-radius: 7px 7px 0 0;
+}
+
+h1.name {
+  font-size: 1.125rem;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.title {
+  color: #D2B48C;
+  font-size: .625rem;
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+
+.website {  
+  font-size: .5rem;
+  margin-top: 5px;
+  color: #dcdcdc;
+}
+
+/* Button */
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 36%;
+  border: none;
+  padding: 6px 9px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: .625rem;
+  margin: 5px 7px 10px;
+}
+
+.email, .link {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.email img, .link img {
+  width: .75rem;
+  border-radius: 0;
+}
+
+.email {
+  color: #0f172a;
+  background-color: #fff;
+}
+
+.link {
+  color: #fff;
+  background-color: #1E90FF;
+}
+
+.about, .interests {
+  padding: 0 25px;
+  text-align: left;
+  font-size: .625rem;
+  margin-top: 15px;
+}
+
+h3 {
+  font-size: 1.125em;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.about > p, .interests > p {
+  margin-top: 5px;
+  color: #d3d3d3;
+}
+
+.footer {
+  margin-top: 30px;
+  padding: 5px 10px;
+  background-color: #0a0f1b;
+}
+
+.footer img {
+  width: 17px;
+  padding: 8px 10px 6px;
+  border-radius: 5px;
+}
